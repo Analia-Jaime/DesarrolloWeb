@@ -42,6 +42,18 @@ footer {
     padding: 10px;
 }
 
+@media (max-width: 768px) {
+    footer {
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
+
+
 /* Estilos para los encabezados de sección */
 section h2 {
     text-align: center;
@@ -190,14 +202,38 @@ section img {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
+
     .item-2 {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
     }
-    /* ...resto de items siguiendo este patrón... */
+    
     .item-10 {
         grid-column: 1 / 4;
         grid-row: 4 / 5;
     }
 }
 
+  /* Estilos básicos para la sección */
+.work-with-us {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 70vh;
+
+}
+
+/* Estilo básico para el botón */
+.work-with-us button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover para el botón */
+.work-with-us button:hover {
+    background-color: #555;
+}
